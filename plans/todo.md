@@ -1,0 +1,26 @@
+# Portfolio Website Implementation: TODO Checklist
+
+- [x] Initialize Next.js project with TypeScript
+- [x] Integrate Tailwind CSS for styling
+- [ ] Set up version control (Git) and connect to remote repository
+- [ ] Set up i18n (next-i18next or next-intl) for EN/FR
+- [ ] Implement global layout: header, footer, main content area
+- [ ] Add dark mode support (toggle in header/navbar)
+- [ ] Set up responsive design breakpoints in Tailwind config
+- [ ] Implement Header/Navbar (logo, navigation, toggles)
+- [ ] Implement Hero Section (name, title, tagline)
+- [ ] Implement About Section (photo, bio, key skills)
+- [ ] Implement Experience Section (timeline/cards for roles/companies)
+- [ ] Implement Consulting Engagements Section (cards/timeline for client projects)
+- [ ] Implement Skills Section (list/icons)
+- [ ] Implement Contact Section (email, LinkedIn, GitHub, contact form)
+- [ ] Implement Footer (copyright, social icons)
+- [ ] Extract and structure content from CV_Long_Mario_Skaff.docx
+- [ ] Populate EN/FR translation files with content
+- [ ] Ensure all sections render correctly in both languages
+- [ ] Test responsiveness on multiple devices
+- [ ] Test dark mode and language toggles
+- [ ] Validate accessibility (a11y) and SEO basics
+- [ ] Add basic unit/integration tests (optional)
+- [ ] Deploy to Vercel
+- [ ] Final review and handoff
