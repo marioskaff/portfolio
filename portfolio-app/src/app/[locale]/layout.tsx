@@ -1,6 +1,8 @@
-import { NextIntlClientProvider, useMessages } from "next-intl";
+import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { ReactNode } from "react";
+import Header from "./Header";
+import Footer from "./Footer";
 
 export function generateStaticParams() {
   return [{ locale: "en" }, { locale: "fr" }];
@@ -21,9 +23,11 @@ export default function LocaleLayout({
   }
   return (
     <html lang={locale}>
-      <body>
+      <body className="flex flex-col min-h-screen">
         <NextIntlClientProvider locale={locale} messages={messages}>
-          {children}
+          <Header />
+          <main className="flex-1 container mx-auto px-4 py-8">{children}</main>
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

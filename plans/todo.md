@@ -4,7 +4,7 @@
 - [x] Integrate Tailwind CSS for styling
 - [x] Set up version control (Git) and connect to remote repository
 - [x] Set up i18n (next-i18next or next-intl) for EN/FR
-- [ ] Implement global layout: header, footer, main content area
+- [x] Implement global layout: header, footer, main content area
 - [ ] Add dark mode support (toggle in header/navbar)
 - [ ] Set up responsive design breakpoints in Tailwind config
 - [ ] Implement Header/Navbar (logo, navigation, toggles)
